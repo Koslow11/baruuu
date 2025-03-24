@@ -1,11 +1,13 @@
-name = "cf-worker-ws-dev"
+name = "baruu" # todo
+#name = "cf-worker-connect-test" # todo
+#main = "test/worker/cf-cdn-cgi-trace2.js"
+#main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
-# node_compat = true
-workers_dev = true
+node_compat = true
+workers_dev = true 
 
 [vars]
-# PROXYIP = "211.230.110.231:50008"
-UUID = "1b6c1745-992e-4aac-8685-266c090e50ea"
-# SOCKS5 = "127.0.0.1:1080"
-# SOCKS5_RELAY = "true"
+# UUID = "6e7f3508-20a6-4cb4-9d6c-5cdb5afa279a"
+PROXYIP = "211-230-110-231:50008"
+UUID = "6e7f3508-20a6-4cb4-9d6c-5cdb5afa279a"
